@@ -27,7 +27,8 @@ const { Server } = require("socket.io");
 const allowedOrigins = [
   "https://stickstatsfrontend.onrender.com",
   "https://stickstats.in",
-  "https://www.stickstats.in"
+  "https://www.stickstats.in",
+  "http://localhost:4200"
 ];
 
 const corsOptions = {
